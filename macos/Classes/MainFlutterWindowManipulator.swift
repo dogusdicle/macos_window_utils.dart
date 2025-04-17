@@ -420,7 +420,7 @@ public class MainFlutterWindowManipulator {
             newToolbar.allowsUserCustomization = false
             newToolbar.allowsExtensionItems = false
             if #available(macOS 12.0, *) {
-              newToolbar.allowsDisplayModeCustomization = false
+            //  newToolbar.allowsDisplayModeCustomization = false
             }
             
             self.mainFlutterWindow!.toolbar = newToolbar
@@ -435,7 +435,7 @@ public class MainFlutterWindowManipulator {
             customToolbar.allowsUserCustomization = false
             customToolbar.allowsExtensionItems = false
             if #available(macOS 12.0, *) {
-              customToolbar.allowsDisplayModeCustomization = false
+             // customToolbar.allowsDisplayModeCustomization = false
             }
             
             self.mainFlutterWindow!.toolbar = customToolbar
